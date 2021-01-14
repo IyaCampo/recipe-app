@@ -1,0 +1,77 @@
+body {
+  font-family: 'Raleway', sans-serif !important;
+  padding-bottom: 20px;
+}
+
+input:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+header {
+  margin: 10px;
+}
+
+header h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+
+header input {
+  border: 0 !important;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  text-align: center;
+  caret-color: rgb(224, 133, 160);
+}
+
+header button {
+  background-color: rgb(224, 133, 160) !important;
+  border: 0 !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+
+header button:hover {
+  background-color: rgb(197, 100, 129) !important;
+}
+
+.recipe-book {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.recipe {
+  position: relative;
+  top: 0;
+  width: 300px;
+  margin: 5px;
+  padding: 15px;
+  border: 0 !important;
+  border-radius: 10px !important;
+  transition: all 0.15s ease-in-out;
+}
+
+.recipe:hover {
+  top: -5px;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgb(201, 167, 188);
+}
+
+.recipe .preview {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.recipe .name {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 800;
+}
